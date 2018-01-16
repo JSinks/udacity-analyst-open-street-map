@@ -194,7 +194,7 @@ def process_file(location):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Specify what location is desired to be imported.')
     parser.add_argument('--location', dest='location')
-    parser.set_defaults(location='marin-county')
+    parser.set_defaults(location='marin-county-sample')
 
     args = parser.parse_args()
 

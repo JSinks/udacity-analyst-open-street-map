@@ -8,6 +8,7 @@ This map is of the broader county that I currently reside in, so I was intereste
 
 ## How to get started
 
+1. Run `pip install -r requirements.txt` to install required python packages (necessary for loading data)
 1. Run `python db_setup.py` to create the appropriate sqlitedb and table schema
 2. Run `python load_data.py <map name>` to cleanse the data, create csvs, and refresh the DB
 
